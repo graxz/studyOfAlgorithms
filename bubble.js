@@ -7,7 +7,6 @@ function bubbleSort (numbers) {
   do {
     swap = false
     for (let i = 0; i < last; i++) {
-      console.log(i);
       if (numbers[i] > numbers[i + 1]) {
         [numbers[i], numbers[i + 1]] = [numbers[i + 1], numbers[i]]
         swap = true
