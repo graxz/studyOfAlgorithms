@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/graxz/studyOfAlgorithms.git"
